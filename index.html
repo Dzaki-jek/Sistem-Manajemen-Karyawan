@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistem Manajemen Karyawan</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+
+<div class="d-flex">
+    <!-- Sidebar -->
+    <div class="sidebar bg-primary text-white p-3" style="width: 250px;">
+
+        <!-- Profil Admin -->
+        <div class="d-flex align-items-center">
+            <div>
+            <p class="mb-1">Dzaki Haikal Putra</p>
+           </div>
+        </div>
+
+        <ul class="nav flex-column">
+            <li class="nav-item mb-2">
+                <a class="nav-link active bg-white text-primary rounded" href="./index.html">
+                    <span class="icon-box"><i class="fas fa-home"></i></span> Dashboard
+                </a>
+            </li>
+        
+            <!-- Menu Karyawan -->
+            <h6 class="text-white mt-3">MENU KARYAWAN</h6>
+            <li class="nav-item">
+                <a class="nav-link text-white" href="./karyawan.html">
+                    <span class="icon-box"><i class="fas fa-users"></i></span> Karyawan
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white" href="./jabatan.html">
+                    <span class="icon-box"><i class="fas fa-user-tag"></i></span> Jabatan
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white" href="./divisi.html">
+                    <span class="icon-box"><i class="fas fa-building"></i></span> Divisi
+                </a>
+            </li>
+            <!-- Menu Absensi -->
+            <h6 class="text-white mt-3">MENU ABSENSI</h6>
+            <li class="nav-item">
+                <a class="nav-link text-white" href="./absensi.html">
+                    <span class="icon-box"><i class="fas fa-users"></i></span> Absensi
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white" href="./izin.html">
+                    <span class="icon-box"><i class="fas fa-users"></i></span> Izin
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white" href="./lembur.html">
+                    <span class="icon-box"><i class="fas fa-users"></i></span> Lembur
+                </a>
+            </li>
+           
+        
+
+        <!-- Logout Button -->
+        <div class="text-center mt-4">
+            <button class="btn btn-light text-primary"><i class="fas fa-sign-out-alt"></i> Logout</button>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="content p-4" style="flex-grow: 1;">
+        <!-- Header Dashboard -->
+        <div class="dashboard-header mb-4">
+            <h1 class="text-primary">Sistem Informasi Manajemen Karyawan</h1>
+            <p>Admin Dashboard</p>
+        </div>
+    
+        <!-- Statistik Dashboard -->
+        <div class="row text-center">
+            <div class="col-md-3">
+                <div class="card shadow-sm p-3 mb-4 bg-white rounded">
+                    <div class="card-body">
+                        <span class="icon-box"><i class="fas fa-users fa-lg"></i></span>
+                        <h5 class="card-title text-primary">Data Pegawai</h5>
+                        <p class="card-text display-4">6</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card shadow-sm p-3 mb-4 bg-white rounded">
+                    <div class="card-body">
+                        <span class="icon-box"><i class="fas fa-calendar-week fa-lg"></i></i></span>
+                        <h5 class="card-title text-success">Absensi Hari Ini</h5>
+                        <p class="card-text display-4">6</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card shadow-sm p-3 mb-4 bg-white rounded">
+                    <div class="card-body">
+                        <span class="icon-box"><i class="fas fa-check fa-lg"></i></i></span>
+                        <h5 class="card-title text-info">Status Izin</h5>
+                        <p class="card-text display-4">2</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card shadow-sm p-3 mb-4 bg-white rounded">
+                    <div class="card-body">
+                        <span class="icon-box"><i class="far fa-check-circle fa-lg"></i></span>
+                        <h5 class="card-title text-primary">Status Lembur</h5>
+                        <p class="card-text display-4">1</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>    
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.4.0/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
